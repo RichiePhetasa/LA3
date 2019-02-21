@@ -10,12 +10,23 @@ body {
     width: 100vw;
 
 }
+.box-shadow {
+    -webkit-box-shadow: 10px 2px 25px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 2px 25px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 2px 25px 1px rgba(0, 0, 0, 0.75);}
+    
+.sub-heading, .nav-heading {
+    margin: 10px 0px 15px;
+}
+.nav-heading {
+    text-align: center;
+}
 
 .main-container-grid {
     display: grid;
     grid-template-rows: 1fr 13fr 1fr;
     grid-row-gap: 1em;
-
+    background-image: url('../img/bg_background.jpg');
 }
 
 .logo-name {
@@ -32,6 +43,12 @@ body {
 .left-nav>li>a {
     display: block;
     padding: 15px 15px;
+    text-decoration: none;
+    transition-duration: 0.7s;
+    font-weight: bold;
+}
+.left-nav>li>a:hover {
+    background-color: rgb(32, 95, 212);
 }
 
 .r1 {
@@ -60,6 +77,9 @@ body {
 .r2c1,
 .r2c3 {
     background-color: #ccc;
+}
+.r2c3{
+    padding: 0px 15px 10px;
 }
 td {
     padding: 10px;

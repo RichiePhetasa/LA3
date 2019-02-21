@@ -122,7 +122,8 @@ a {
     display: block;
     background-color: #CCC;
     border: 1px solid #f1f1f1;
-    transistion-duration: 0.5;
+    transition-duration: 0.5;
+    text-transform: capitalize;
 
 }
 
